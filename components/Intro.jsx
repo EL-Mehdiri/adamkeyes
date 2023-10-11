@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Intro = () => {
     return (
         <section className='flex sm:flex-col md:flex-row lg:flex-row container pt-20  justify-between'>
-            <div className=' lg:space-y-16 sm:space-y-10 sm:text-center md:text-left lg:text-left'>
-                <h1 className='lg:text-[88px] md:text-[72px] sm:text-[40px] font-bold lg:leading-[88px]'>
+            <div className=' lg:space-y-16 space-y-8 md:space-y-12 text-center md:text-left lg:text-left'>
+                <h1 className='lg:text-[88px] md:text-[72px] text-[40px] font-bold lg:leading-[88px]'>
                     Nice to meet you! <br />
                     I’m <span className='border-b-[6px] border-secondary'> Adam Keyes.</span>
                 </h1>
