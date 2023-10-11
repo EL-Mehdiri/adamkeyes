@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Projects = () => {
     return (
-        <section className=''>
+        <section className='container'>
             <div className='flex justify-between items-center py-10'>
                 <p className=' lg:text-[72px] md:text-[72px] text-[40px]'>Projects</p>
                 <button className='hover:text-secondary text-white font-bold w-fit text-[16px] border-b-[2px] pb-4 border-secondary'>

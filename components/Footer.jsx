@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <footer className=' bg-tertiary text-white mt-20'>
+        <footer className=' bg-tertiary text-white mt-40'>
             <div className=' container  space-y-20 px-5'>
                 <div className=' grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2'>
                     <div className='py-10'>
                         <p className='text-[88px] font-bold '>Contact</p>
-                        <p className='text-[18px] pt-10 font-medium leading-7 text-quaternary w-1/2'>
+                        <p className='text-[18px] pt-10 font-medium leading-7 text-quaternary w-2/3'>
                             I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.
                         </p>
                     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Lang = () => {
     return (
-        <section className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 text-center lg:text-left md:text-left gap-10'>
+        <section className='grid container lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 text-center lg:text-left md:text-left gap-10'>
             <Cards title='HTML' desc='4 Years Experience' />
             <Cards title='CSS' desc='4 Years Experience' />
             <Cards title='Javascript' desc='4 Years Experience' />
