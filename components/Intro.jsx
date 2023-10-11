@@ -3,7 +3,13 @@ import Image from 'next/image'
 
 const Intro = () => {
     return (
-        <section className='flex sm:flex-col md:flex-row lg:flex-row container pt-20  justify-between'>
+        <section className='flex flex-col md:flex-row lg:flex-row container pt-20  justify-between'>
+            <Image
+                src="/assest/images/image-profile-mobile.webp"
+                width={420}
+                height={420}
+                className="mx-auto px-[100px] md:hidden"
+            />
             <div className=' lg:space-y-16 space-y-8 md:space-y-12 text-center md:text-left lg:text-left'>
                 <h1 className='lg:text-[88px] md:text-[72px] text-[40px] font-bold lg:leading-[88px]'>
                     Nice to meet you! <br />
